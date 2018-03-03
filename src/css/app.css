@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #521751;
+}
+
+.main-header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: white;
+}
+
+.time-wrapper {
+    margin: -20px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    color: #fa923f;
+}
+
+.time-wrapper .time {
+    font-size: 3rem;
+}
+
+.content {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .progress {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.time-line {
+    border-radius: 5px;
+    display: flex;
+    width: calc(100% - 50px);
+    height: 15px;
+    background: #e3e3e3;
+}
+
+.progress-line {
+    position: relative;
+    background: lightgreen;
+    align-self: stretch;
+    margin: 0 auto;
+    z-index: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.rounded-avatar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 3px solid lightgreen;
+    border-radius: 50%;
+}
+
+.bridegroom {
+    left: 0;
+    background: url(../images/bridegroom.jpg) center / contain no-repeat;
+}
+
+.bride {
+    right: 0;
+    background: url(../images/bride.jpg) center / contain no-repeat;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px 0;
+}
