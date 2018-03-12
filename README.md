@@ -1,6 +1,6 @@
 # When should be my wedding?
 
-## CAUTION!!! This App is very progressive and can yse your cache!
+## CAUTION!!! This App is very progressive and can use your cache!
 
 ## for desktop users...
 ### visit page https://dbaranoff.github.io/when-wedding/
